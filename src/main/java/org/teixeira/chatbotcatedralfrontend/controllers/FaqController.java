@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 import org.teixeira.chatbotcatedralfrontend.dto.MessageRequest;
 import org.teixeira.chatbotcatedralfrontend.dto.MessageResponse;
 import org.teixeira.chatbotcatedralfrontend.services.FaqService;
-import org.teixeira.chatbotcatedralfrontend.utils.FaqAnswers;
 
 @RestController
 @RequestMapping("/api/chat")
