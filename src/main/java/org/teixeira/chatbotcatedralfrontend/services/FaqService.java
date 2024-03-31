@@ -3,7 +3,6 @@ package org.teixeira.chatbotcatedralfrontend.services;
 import org.springframework.stereotype.Service;
 import org.teixeira.chatbotcatedralfrontend.domain.FaqAnswer;
 import org.teixeira.chatbotcatedralfrontend.utils.FaqAnswers;
-
 import java.util.Arrays;
 import java.util.List;
 
