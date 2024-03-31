@@ -12,15 +12,11 @@ public class FaqService {
     final private FaqAnswers faqAnswers = new FaqAnswers();
 
     public String getAnswer(String question) {
-        String[] words = question.toLowerCase().split("\\s+");
-        List<String> wordsList = Arrays.asList(words);
-        for (FaqAnswer entry : faqAnswers.getAnswers()) {
-            for (String keyword : entry.getKeywords()) {
-                if (wordsList.contains(keyword)) {
-                    return entry.getAnswer();
-                }
-            }
-        }
-        return faqAnswers.getDeafultAnswer();
+        List<String> wordsList = Arrays.asList(question.toLowerCase().split("\\s+"));
+        return faqAnswers.getAnswers().stream()
+                .filter(entry -> entry.getKeywords().stream().anyMatch(wordsList::contains))
+                .findFirst()
+                .map(FaqAnswer::getAnswer)
+                .orElse(faqAnswers.getDefaultAnswer());
     }
 }

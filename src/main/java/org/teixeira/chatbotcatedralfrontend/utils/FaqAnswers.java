@@ -14,7 +14,7 @@ import java.util.List;
 @Getter
 public class FaqAnswers {
     private ArrayList<FaqAnswer> answers;
-    private String deafultAnswer;
+    private String defaultAnswer;
 
     public FaqAnswers() {
         try {
@@ -36,7 +36,7 @@ public class FaqAnswers {
                 this.answers.add(new FaqAnswer(keywords, answer));
             }
 
-            this.deafultAnswer = faqDAta.getString("default");
+            this.defaultAnswer = faqDAta.getString("default");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
