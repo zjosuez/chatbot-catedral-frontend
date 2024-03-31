@@ -1,19 +1,19 @@
 {
   "faq": [
     {
-      "keywords": ["criação", "criado","fundação", "inauguração", "criacao", "fundacao", "inauguracao"],
+      "keywords": ["criacao", "criado", "fundacao", "criacao", "inauguracao"],
       "answer": "A Catedral Metropolitana de Brasília foi inaugurada em 31 de maio de 1970, após 12 anos de construção. É um dos marcos arquitetônicos mais importantes da capital brasileira."
     },
     {
-      "keywords": ["objetivo", "propósito", "proposito"],
+      "keywords": ["objetivo", "proposito", "proposito"],
       "answer": "O propósito da Catedral Metropolitana de Brasília é servir como um local de culto e adoração, além de ser um símbolo da fé cristã na cidade. Também atrai turistas devido à sua arquitetura única."
     },
     {
-      "keywords": ["prédio", "arquitetura", "predio"],
+      "keywords": ["predio", "arquitetura", "predio"],
       "answer": "A Catedral de Brasília é conhecida por sua arquitetura modernista, projetada por Oscar Niemeyer. Seu formato hiperboloide destaca-se na paisagem urbana da capital brasileira."
     },
     {
-      "keywords": ["horário", "funcionamento", "aberto", "horario"],
+      "keywords": ["horario", "funcionamento", "aberto", "horario"],
       "answer": "A Catedral Metropolitana de Brasília está aberta para visitação diariamente, das 8h às 18h. No entanto, os horários de missas e eventos religiosos podem variar, então é recomendável verificar a programação."
     },
     {
@@ -25,19 +25,19 @@
       "answer": "Os líderes religiosos responsáveis pela administração da Catedral Metropolitana de Brasília variam ao longo do tempo. Recomenda-se entrar em contato com a Arquidiocese de Brasília para informações atualizadas sobre o clero."
     },
     {
-      "keywords": ["estilo arquitetônico", "prédio", "arquitetura", "estilo arquitetonico"],
+      "keywords": ["estilo arquitetonico", "predio", "arquitetura", "estilo arquitetonico"],
       "answer": "A arquitetura da Catedral de Brasília é caracterizada pelo estilo modernista, que é uma marca registrada do arquiteto brasileiro Oscar Niemeyer. Sua forma distinta torna-a uma das obras mais reconhecíveis da cidade."
     },
     {
-      "keywords": ["arquiteto", "prédio", "predio"],
+      "keywords": ["arquiteto", "predio", "predio"],
       "answer": "O arquiteto responsável pelo projeto da Catedral Metropolitana de Brasília foi Oscar Niemeyer, uma das figuras mais proeminentes da arquitetura modernista brasileira."
     },
     {
-      "keywords": ["endereço", "local", "chegar"],
+      "keywords": ["endereco", "local", "chegar"],
       "answer": "A Catedral Metropolitana de Brasília está localizada no Eixo Monumental, próximo à Esplanada dos Ministérios, no endereço: Eixo Monumental, Brasília - DF, CEP 70070-914"
     },
     {
-      "keywords": ["história", "origem", "construção"],
+      "keywords": ["historia", "origem", "construcao"],
       "answer": "A construção da Catedral Metropolitana de Brasília foi iniciada em 1958 e concluída em 1970. Foi projetada pelo arquiteto Oscar Niemeyer e pelo engenheiro estrutural Joaquim Cardozo, sendo uma das principais obras da arquitetura modernista no Brasil."
     },
     {
@@ -45,7 +45,7 @@
       "answer": "A capacidade da Catedral Metropolitana de Brasília é de aproximadamente 4.000 pessoas. Seu design único e espaçoso permite acomodar um grande número de fiéis durante celebrações religiosas e eventos especiais."
     },
     {
-      "keywords": ["celebrações", "missas", "eventos religiosos"],
+      "keywords": ["celebracoes", "missas", "eventos religiosos"],
       "answer": "A Catedral Metropolitana de Brasília realiza missas e celebrações religiosas regularmente. Os horários e tipos de eventos podem variar, por isso é aconselhável verificar a programação atualizada junto à arquidiocese local."
     },
     {
@@ -53,7 +53,7 @@
       "answer": "O interior da Catedral Metropolitana de Brasília é adornado com obras de arte sacra, incluindo esculturas e pinturas de artistas brasileiros renomados. Essas peças contribuem para a atmosfera espiritual e estética do local."
     },
     {
-      "keywords": ["visitantes", "turistas", "público"],
+      "keywords": ["visitantes", "turistas", "publico"],
       "answer": "A Catedral Metropolitana de Brasília recebe visitantes e turistas de todo o mundo interessados em sua arquitetura singular e importância histórica e religiosa. É um ponto turístico importante na capital brasileira."
     }
   ],
