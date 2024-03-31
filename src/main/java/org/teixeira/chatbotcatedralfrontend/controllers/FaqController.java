@@ -1,10 +1,7 @@
 package org.teixeira.chatbotcatedralfrontend.controllers;
 
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.teixeira.chatbotcatedralfrontend.dto.MessageRequest;
 import org.teixeira.chatbotcatedralfrontend.dto.MessageResponse;
 import org.teixeira.chatbotcatedralfrontend.services.FaqService;
@@ -18,6 +15,7 @@ public class FaqController {
         this.faqService = faqService;
     }
 
+    @CrossOrigin(origins = "*", allowedHeaders = "*")                                           
     @PostMapping
     public ResponseEntity<MessageResponse> answerQuestion(@RequestBody MessageRequest request) {
         String answer = faqService.getAnswer(request.message());
